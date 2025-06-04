@@ -1,3 +1,4 @@
+package tests
 
 func TestAddTask(t *testing.T) {
     tasks := []todo.Task{}
