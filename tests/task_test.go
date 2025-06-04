@@ -1,3 +1,4 @@
+
 func TestAddTask(t *testing.T) {
     tasks := []todo.Task{}
     task := todo.AddTask(tasks, "Test task")
