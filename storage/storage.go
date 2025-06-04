@@ -3,7 +3,9 @@ package storage
 import (
     "encoding/json"
     "os"
-    "go-todo-cli/todo"
+
+    "github.com/D-Vasylchenko/go-todo-cli/todo"
+
 )
 
 func LoadTasks(filename string) ([]todo.Task, error) {
