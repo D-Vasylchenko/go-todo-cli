@@ -4,9 +4,9 @@ import (
     "fmt"
     "os"
     "strconv"
-
-    "go-todo-cli/storage"
-    "go-todo-cli/todo"
+    
+    "github.com/D-Vasylchenko/go-todo-cli/storage"
+    "github.com/D-Vasylchenko/go-todo-cli/todo"
 )
 
 func main() {
