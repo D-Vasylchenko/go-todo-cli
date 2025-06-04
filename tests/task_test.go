@@ -1,9 +1,3 @@
-package tests
-
-import (
-    "testing"
-    "go-todo-cli/todo"
-)
 
 func TestAddTask(t *testing.T) {
     tasks := []todo.Task{}
