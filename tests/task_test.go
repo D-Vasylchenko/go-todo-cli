@@ -1,4 +1,9 @@
-package tests
+package todo
+
+import (
+    "testing"
+    "github.com/D-Vasylchenko/go-todo-cli/todo"
+)
 
 func TestAddTask(t *testing.T) {
     tasks := []todo.Task{}
